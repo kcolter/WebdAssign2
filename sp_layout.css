@@ -43,6 +43,13 @@ body{
    column-count: 3;
 }
 
+#horizontal, footer {
+   column-count: 4;
+}
+
+aside{
+   column-count: 2;
+}
 
 
 
