@@ -39,7 +39,9 @@ body{
    column-width: 1fr;
 }
 
-
+#logo{
+   column-count: 3;
+}
 
 
 
