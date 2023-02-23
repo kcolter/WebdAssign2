@@ -36,20 +36,23 @@ body{
    grid-template-columns: 25% 25% 25% 25%;
 }
 
-#logo{
-   column-count: 3;
+img#logo{
+   grid-column: span 3;
+   width: 100%;
 }
 
-#horizontal, footer {
-   column-count: 4;
+nav.horizontal, footer{
+   grid-column: 4;
 }
 
 aside{
-   column-count: 2;
+   grid-column: span 2;
 }
 
-.row{
-   
+nav.horizontal li{
+   display: block;
+   width: 12.5%;
+   float: left;
 }
 
 
