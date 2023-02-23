@@ -19,7 +19,7 @@ html {
 }
 
 img{
-   display: inline-block;
+   display: block;
 }
 
 body{
@@ -32,9 +32,8 @@ body{
 
 /* CSS Grid Styles */
 body{
-   display: table;
-   column-count: 4;
-   column-width: 1fr;
+   display: grid;
+   grid-template-columns: 25% 25% 25% 25%;
 }
 
 #logo{
