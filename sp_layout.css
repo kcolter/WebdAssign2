@@ -42,7 +42,7 @@ img#logo{
 }
 
 nav.horizontal, footer{
-   grid-column: 4;
+   grid-column: span 4;
 }
 
 aside{
@@ -64,7 +64,10 @@ nav.horizontal li{
 
 
 /* Section Styles */
-
+section img{
+   width: 50%;
+   margin: 0 auto 0 auto;
+}
 
 
 
