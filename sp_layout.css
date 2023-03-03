@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 /*
    New Perspectives on HTML5 and CSS3, 8th Edition
    Tutorial 3
@@ -10,9 +9,7 @@
    Date: 02/21/2023  
    
    Filename: sp_layout.css
-
 */
-
 /* Window and Body Styles */
 html {
    height: 100%;
@@ -55,13 +52,7 @@ nav.horizontal li{
    float: left;
 }
 
-
-
-
-
 /* Horizontal Navigation List Styles */
-
-
 
 /* Section Styles */
 section img{
@@ -72,8 +63,6 @@ section img{
 section p{
    margin: 0 auto 0 auto;
 }
-
-
 
 /* Customer Comment Styles */
 aside{
